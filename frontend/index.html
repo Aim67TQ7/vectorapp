@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Uploader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Upload Your Data</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <label for="file">Choose a CSV file:</label>
+        <input type="file" id="file" name="file" required>
+        <button type="submit">Upload</button>
+    </form>
+    <div id="responseMessage"></div>
+    <script src="script.js"></script>
+</body>
+</html>
